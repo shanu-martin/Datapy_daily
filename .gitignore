@@ -1,0 +1,5 @@
+# Ignore files in the Gui folder
+Gui/
+
+# Ignore files in the .idea folder
+.idea/
