@@ -11,7 +11,7 @@ The primary purpose of this repository is to keep track of my progress and showc
 
 About Me
 I am [shanu martin](https://github.com/shanu-martin),
-![Shanu_martin](<img src="https://avatars.githubusercontent.com/u/96837910?v=4" alt="Shanu_martin" width="100" height="100" style="border-radius: 40%;">
+![Shanu_martin](<img src="https://media.licdn.com/dms/image/D560BAQGapB2-hhvvjA/company-logo_200_200/0/1707714742431?e=1721260800&v=beta&t=G2YIJYoH7gJcuTFyR6y_79jYboCcIshMTBDt4iDj6cU" alt="Shanu_martin" width="100" height="100" style="border-radius: 40%;">
 )
  A passionate learner and aspiring developer dedicated to mastering the art of programming. This repository reflects my enthusiasm for learning new concepts and applying them in practical projects. Join me on this exciting journey of exploration and growth!
 
