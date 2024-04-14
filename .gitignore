@@ -3,3 +3,6 @@ Gui/
 
 # Ignore files in the .idea folder
 .idea/
+
+test.py
+test2.py
