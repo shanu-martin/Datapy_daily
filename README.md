@@ -14,3 +14,11 @@ I am [shanu martin](https://github.com/shanu-martin), a passionate learner and a
 <img src="https://media.licdn.com/dms/image/D560BAQGapB2-hhvvjA/company-logo_200_200/0/1707714742431?e=1721260800&v=beta&t=G2YIJYoH7gJcuTFyR6y_79jYboCcIshMTBDt4iDj6cU" alt="Shanu_martin" width="100" height="100" style="border-radius: 40%;">
 
 <!-- ![Shanu_martin](https://avatars.githubusercontent.com/u/96837910?v=4) -->
+# How to run 
+ ### .find  Apps directory
+ ###  download the task you need to run [ task 5 = T5]
+ ### extract the folder  
+ ### you can find a .exe file in it.    [ t5.exe ]
+ ### right click and run it as Administrator
+
+ ## make sure you are connected
