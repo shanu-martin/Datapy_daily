@@ -24,7 +24,8 @@ from sympy import isprime as check
 
 # Prime Number
 def check_prime(x):
-    if math.isprime(x):
+    x=int(x)
+    if check(x):
         print(f"\033[32m{x}is prime\033[0m")
     else:
         print(f"\033[91m{x}is not prime\033[0m")
