@@ -58,7 +58,7 @@ def arm(x):
         num_digits = len(num_str)
         armstrong_sum = sum(int(digit) ** num_digits for digit in num_str)
         if armstrong_sum == x:
-            print(f"\033[32m{x}is an Armstrong number\033[0m")
+            print(f"\033[32m{x} is an Armstrong number\033[0m")
         else:
             print(f"\033[91m{x} is not an Armstrong number\033[0m")
     except Exception:
