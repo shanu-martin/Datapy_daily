@@ -32,12 +32,13 @@ def check_prime(x):
 # Factorial
 def fact(x):
     try:
-        print('Factorail : ',math.factorial(x))
+        print('Factorail : ',math.factorial(int(x)))
     except Exception:
         print("\033[91mError: Invalid Entry\033[0m")
 # Fibonacci Series
 def fibonacci(n):
     try:
+        n=int(n)
         fib_series = [0, 1]
         for i in range(2, n):
             fib_series.append(fib_series[-1] + fib_series[-2])
@@ -49,6 +50,7 @@ def fibonacci(n):
 # Armstrong Number
 def arm(x):
     try:
+        x=int(x)
         num_str = str(x)
         num_digits = len(num_str)
         armstrong_sum = sum(int(digit) ** num_digits for digit in num_str)
