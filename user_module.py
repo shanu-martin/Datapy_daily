@@ -24,12 +24,14 @@ from sympy import isprime as check
 
 # Prime Number
 def check_prime(x):
-    x=int(x)
-    if check(x):
-        print(f"\033[32m{x} is prime\033[0m")
-    else:
-        print(f"\033[91m{x} is not prime\033[0m")
-
+    try:
+        x=int(x)
+        if check(x):
+            print(f"\033[32m{x} is prime\033[0m")
+        else:
+            print(f"\033[91m{x} is not prime\033[0m")
+    except Exception:
+        print("\033[91mError: invalid Entry\033[0m")
 # Factorial
 def fact(x):
     try:
@@ -67,8 +69,9 @@ def arm(x):
 def nsum(*args):
     try:
         total = sum(args)
-        print(f"Sum of the numbers is:\033[32m {total}\033[0m")
+        print(f"Sum of the numbers \033[94m{args}\033[0m  is:\033[32m {total}\033[0m")
     except Exception:
         print("\033[91mError: invalid Entry\033[0m")
 
 
+nsum(3,4,5)
