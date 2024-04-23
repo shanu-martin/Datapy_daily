@@ -73,5 +73,3 @@ def nsum(*args):
     except Exception:
         print("\033[91mError: invalid Entry\033[0m")
 
-
-nsum(3,4,5)
