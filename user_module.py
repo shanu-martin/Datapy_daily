@@ -25,14 +25,14 @@ from sympy import isprime as check
 # Prime Number
 def check_prime(x):
     if check(x):
-        print(x, "is prime")
+        print(f"\033[32m{x}is prime\033[0m")
     else:
-        print(x, "is not prime")
+        print(f"\033[91m{x}is not prime\033[0m")
 
 # Factorial
 def fact(x):
     try:
-        print('Factorail : ',math.factorial(int(x)))
+        print(f'Factorail of {x} is : ',math.factorial(int(x)))
     except Exception:
         print("\033[91mError: Invalid Entry\033[0m")
 # Fibonacci Series
@@ -42,7 +42,7 @@ def fibonacci(n):
         fib_series = [0, 1]
         for i in range(2, n):
             fib_series.append(fib_series[-1] + fib_series[-2])
-        print("Fibonacci series up to", n, "terms:", fib_series)
+        print(f"Fibonacci series up to  {n} terms: , \033[94m{fib_series}\033[0m")
     except Exception:
         print("\033[91mError: invalid Entry\033[0m")
 
@@ -55,7 +55,7 @@ def arm(x):
         num_digits = len(num_str)
         armstrong_sum = sum(int(digit) ** num_digits for digit in num_str)
         if armstrong_sum == x:
-            print(x, "is an Armstrong number")
+            print(f"\033[32m{x}is an Armstrong number\033[0m")
         else:
             print(x, "is not an Armstrong number")
     except Exception:
@@ -66,7 +66,7 @@ def arm(x):
 def nsum(*args):
     try:
         total = sum(args)
-        print("Sum of the numbers is:", total)
+        print(f"Sum of the numbers is:\033[32m {total}\033[0m")
     except Exception:
         print("\033[91mError: invalid Entry\033[0m")
 
