@@ -1,8 +1,9 @@
 # Ignore files in the Gui folder
 Gui/
-
+class WOrk/
 # Ignore files in the .idea folder
 .idea/
 
 test.py
 test2.py
+tempCodeRunnerFile.py
