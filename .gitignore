@@ -1,9 +1,11 @@
 # Ignore files in the Gui folder
 Gui/
 class WOrk/
+__pycache__/
 # Ignore files in the .idea folder
 .idea/
 
-test.py
-test2.py
+ztest.py
+ztest2.py
 tempCodeRunnerFile.py
+ztemp_shanu.py
