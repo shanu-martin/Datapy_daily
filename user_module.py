@@ -26,9 +26,9 @@ from sympy import isprime as check
 def check_prime(x):
     x=int(x)
     if check(x):
-        print(f"\033[32m{x}is prime\033[0m")
+        print(f"\033[32m{x} is prime\033[0m")
     else:
-        print(f"\033[91m{x}is not prime\033[0m")
+        print(f"\033[91m{x} is not prime\033[0m")
 
 # Factorial
 def fact(x):

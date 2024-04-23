@@ -4,7 +4,7 @@ class WOrk/
 __pycache__/
 # Ignore files in the .idea folder
 .idea/
-
+temp/
 ztest.py
 ztest2.py
 tempCodeRunnerFile.py
