@@ -37,24 +37,35 @@ def fact(x):
         print("\033[91mError: Invalid Entry\033[0m")
 # Fibonacci Series
 def fibonacci(n):
-    fib_series = [0, 1]
-    for i in range(2, n):
-        fib_series.append(fib_series[-1] + fib_series[-2])
-    print("Fibonacci series up to", n, "terms:", fib_series)
+    try:
+        fib_series = [0, 1]
+        for i in range(2, n):
+            fib_series.append(fib_series[-1] + fib_series[-2])
+        print("Fibonacci series up to", n, "terms:", fib_series)
+    except Exception:
+        print("\033[91mError: invalid Entry\033[0m")
+
 
 # Armstrong Number
 def arm(x):
-    num_str = str(x)
-    num_digits = len(num_str)
-    armstrong_sum = sum(int(digit) ** num_digits for digit in num_str)
-    if armstrong_sum == x:
-        print(x, "is an Armstrong number")
-    else:
-        print(x, "is not an Armstrong number")
+    try:
+        num_str = str(x)
+        num_digits = len(num_str)
+        armstrong_sum = sum(int(digit) ** num_digits for digit in num_str)
+        if armstrong_sum == x:
+            print(x, "is an Armstrong number")
+        else:
+            print(x, "is not an Armstrong number")
+    except Exception:
+        print("\033[91mError: invalid Entry\033[0m")
+
 
 # Sum of n
 def nsum(*args):
-    total = sum(args)
-    print("Sum of the numbers is:", total)
+    try:
+        total = sum(args)
+        print("Sum of the numbers is:", total)
+    except Exception:
+        print("\033[91mError: invalid Entry\033[0m")
 
 
