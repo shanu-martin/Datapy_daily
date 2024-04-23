@@ -57,7 +57,7 @@ def arm(x):
         if armstrong_sum == x:
             print(f"\033[32m{x}is an Armstrong number\033[0m")
         else:
-            print(x, "is not an Armstrong number")
+            print(f"\033[91m{x} is not an Armstrong number\033[0m")
     except Exception:
         print("\033[91mError: invalid Entry\033[0m")
 
