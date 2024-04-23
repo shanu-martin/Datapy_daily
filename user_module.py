@@ -31,7 +31,10 @@ def check_prime(x):
 
 # Factorial
 def fact(x):
-    print('Factorail : ',math.factorial(x))
+    try:
+        print('Factorail : ',math.factorial(x))
+    except Exception:
+        print("\033[91mError: Invalid Entry\033[0m")
 # Fibonacci Series
 def fibonacci(n):
     fib_series = [0, 1]
